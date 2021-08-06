@@ -1,0 +1,113 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/*------------
+   Utilities
+ ------------- */
+
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+ }
+
+ /* ---------------------
+   Header Section Styles
+   ---------------------- */
+   .heading-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+.heading-container:hover .heading-banner{
+    transform: scale(1.4) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+   .heading-title{
+       color: #FFFFFF;
+       width: 485px;
+       height: 230px;
+       font-size: 64px;
+       font-weight: 700;
+       margin-top: 207px;
+       
+   }
+   .button-live{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 169px;
+    
+   }
+   .button-live a, .fa-arrow-right{
+       color: white;
+       font-size: 16px;
+       text-decoration: none;
+   }
+   .heading-banner img{
+       width: 556px;
+       height: 438px;
+       margin-top: 153px;
+   }
+
+   /*---------------
+    Players Styles
+    ---------------- */
+   .players-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+   }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 30px;
+        
+    }
+    .player img{
+        width: 300px;
+        height: 256px;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    .player{
+        width: 330px;
+        height: 474px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: cornflowerblue;
+        border: 2px solid gray;     
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    /* .player-info{
+        text-align: left;
+    } */
+
+ /*------------------
+      footer styles
+   ------------------- */
+   footer{
+       margin: 158px 0 63px 0;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+   .logo img{
+       width: 484px;
+       height: 110px;
+   }
+   .social-icons{
+       margin-right: 14px;
+       margin: 20px 0 20px;
+   }
+   footer>p{
+       font-size: 18px;
+       font-weight: 400;
+   }
