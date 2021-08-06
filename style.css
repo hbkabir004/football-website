@@ -253,6 +253,9 @@
         width: 100%;
     }
  }
+
+ /* =======TABLET========= */
+
  @media only screen and (min-width:688px) and (max-width: 992px) {
     .heading-container{
         flex-direction: column;
