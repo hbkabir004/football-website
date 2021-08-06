@@ -89,6 +89,63 @@
         text-align: left;
     } */
 
+/*  ----------------------
+    extra-section styles
+    ---------------------- */
+    .extra-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .marquee{
+        font-size: x-large;
+        color:#2D25A0;
+        text-shadow: 1px 1px 2px whitesmoke, 0 0 1em blue, 0 0 0.2em blue;
+    }
+
+    /* --------------
+        Form Styles
+    -------------------- */
+    .form-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .signup-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .signup-form input,
+    button {
+        font-size: 1.3em;
+        margin-top: 15px;
+        border: 1px solid lightgray;
+        padding-left: 10px;
+        border-radius: 5px;
+
+    }
+
+    .signup-form button {
+        background-color:#E02C6D;
+        color: whitesmoke;
+        font-weight: 700;
+        padding: 5px;
+        border: 0;
+    }
+    .signup-form h2{
+        color:#2D25A0;
+        text-shadow: 1px 1px 2px whitesmoke, 0 0 1em #E02C6D, 0 0 0.2em #E02C6D;
+    }
+    .signup-form:hover h2{
+        transform: scale(1.5);
+        transition: transform 2s ease-in-out;
+    }
+
+
  /*------------------
       footer styles
    ------------------- */
@@ -102,12 +159,13 @@
    .logo img{
        width: 484px;
        height: 110px;
+       margin-bottom: 20px;
    }
    .social-icons{
-       margin-right: 14px;
-       margin: 20px 0 20px;
+       margin-left: 14px;
    }
-   footer>p{
+   footer p{
        font-size: 18px;
        font-weight: 400;
+       margin-top: 20px;
    }
